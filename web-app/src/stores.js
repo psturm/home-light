@@ -6,8 +6,8 @@ let devices_default = {};
 const queryParams = window.location.search;
 if (queryParams.includes("debug")) {
     devices_default = {
-        "23.42.5.5": {
-            "ip": "23.42.5.5",
+        "192.168.0.123": {
+            "ip": "192.168.0.123",
             "settings": {            
                 "power": "1",
                 "mode": "SWAP2COLORS",
@@ -17,8 +17,8 @@ if (queryParams.includes("debug")) {
             },
             "version": "0.1-debug",
         },
-        "5.5.5.23": {
-            "ip": "5.5.5.23",
+        "192.168.1.213": {
+            "ip": "192.168.1.213",
             "settings": {            
                 "power": "1",
                 "mode": "SINGLECOLOR",
@@ -28,8 +28,8 @@ if (queryParams.includes("debug")) {
             },
             "version": "0.1-debug",
         },
-        "1.2.3.4": {
-            "ip": "1.2.3.4",
+        "192.168.4.23": {
+            "ip": "192.168.4.23",
             "settings": {            
                 "power": "0",
                 "mode": "SINGLECOLOR",
